@@ -1,0 +1,4 @@
+# environment variables:
+AFL_KILL_SIGNAL=9
+# command line:
+'afl-fuzz' '-i' 'in' '-o' 'out' '-d' '-C' '--' '/usr/local/bin/sudoedit'
