@@ -1,0 +1,6 @@
+{
+	global:
+		group_plugin;
+	local:
+		*;
+};

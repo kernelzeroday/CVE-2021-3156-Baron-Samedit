@@ -1,0 +1,6 @@
+{
+	global:
+		sample_approval;
+	local:
+		*;
+};

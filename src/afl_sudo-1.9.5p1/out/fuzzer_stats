@@ -1,0 +1,37 @@
+start_time        : 1611797871
+last_update       : 1611800095
+run_time          : 2223
+fuzzer_pid        : 15758
+cycles_done       : 4
+cycles_wo_finds   : 0
+execs_done        : 201484
+execs_per_sec     : 90.60
+execs_ps_last_min : 81.99
+paths_total       : 89
+paths_favored     : 12
+paths_found       : 88
+paths_imported    : 0
+max_depth         : 8
+cur_path          : 70
+pending_favs      : 5
+pending_total     : 50
+variable_paths    : 8
+stability         : 70.67%
+bitmap_cvg        : 40.83%
+unique_crashes    : 24
+unique_hangs      : 14
+last_path         : 1611800056
+last_crash        : 1611800056
+last_hang         : 1611800045
+execs_since_crash : 1726
+exec_timeout      : 20
+slowest_exec_ms   : 0
+peak_rss_mb       : 0
+cpu_affinity      : 1
+edges_found       : 699
+var_byte_count    : 205
+havoc_expansion   : 0
+afl_banner        : sudoedit
+afl_version       : ++2.68c
+target_mode       : crash shmem_testcase 
+command_line      : afl-fuzz -i in -o out -d -C -- /usr/local/bin/sudoedit
